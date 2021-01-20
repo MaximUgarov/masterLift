@@ -1,0 +1,177 @@
+.navbar {
+    display: flex;
+    align-items: end;
+    padding-left: 210px;
+    padding-right: 210px;
+    justify-content: space-between;
+    padding-top: 82px;
+    padding-bottom: 43px;
+}
+
+.navbar-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #585858;
+    margin-right: 56px;
+    cursor: pointer;
+    max-width: max-content;
+}
+
+.navbar-link:hover {
+    color: #7AC1F4;
+}
+
+.sub-nav-bg {
+    position: absolute;
+    z-index: -1;
+    width: 276px;
+    height: 311px;
+    top: -34px;
+    left: -42px;
+}
+
+
+.navbar-btns-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-btn {
+    background: #4C4C4C;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 230px;
+    height: 40px;
+}
+
+.navbar-btn.ordercall {
+    background: #7AC1F4;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sun-nav-wrapper {
+    position: absolute;
+    top: -15px;
+    left: -23px;
+    background: #FFFFFF;
+    border: 1px solid #4C4C4C;
+    box-sizing: border-box;
+    z-index: -1;
+    padding-top: 71px;
+    width: 230px;
+    padding-left: 23px;
+    padding-bottom: 37px;
+}
+
+span.navbar-link:nth-child(5) {
+    position: relative;
+    z-index: 99;
+}
+
+.menu-list-el {
+    padding-bottom: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #585858;
+}
+
+.menu-list-el:hover {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #7AC1F4;
+}
+
+
+
+
+
+
+.call-window {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background-color: #0000008F;
+}
+
+.callwindow-form-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*! transition: t; */
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    background: #4C4C4C;
+    box-shadow: 6px 5px 4px rgba(0, 0, 0, 0.1);
+    padding: 4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.callwindow__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+
+.callwindow__input {
+    margin-top: 45px;
+    width: 320px;
+    border-bottom: solid #FFFFFF;
+    background-color: transparent;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.callwindow__btn {
+    background: #7AC1F4;
+    box-shadow: 9px 8px 16px rgba(0, 0, 0, 0.11);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 226px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 79px;
+}
+
+.callwindow-bg {
+    width: 100%;
+    height: 100%;
+}

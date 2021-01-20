@@ -1,0 +1,196 @@
+.maker-disings-block-photos-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 107px 50px;
+}
+
+.maker-disings-block__imgWrap {
+    width: max-content;
+}
+
+.maker-disings-block__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 63px;
+    color: #4C4C4C;
+    margin: 0;
+    margin-bottom: 73px;
+    margin-top: 50px;
+}
+
+h4.maker-block__text {
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    color: #4C4C4C;
+}
+
+.maker-block-text-wrapper {
+    margin-top: 100px;
+}
+
+.maker-photo {
+    width: 100%;
+}
+
+.main-title-nameCompani {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 79px;
+    color: #4C4C4C;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.main-title-subpages {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 79px;
+    color: #4C4C4C;
+    margin: 0;
+    margin-bottom: 37px;
+}
+
+h4.maker-block__text:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+h4.maker-block__text:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+.maker-disings-specifications__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 47px;
+    color: #4C4C4C;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+.maker-disings-specifications-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 34px;
+    padding-right: 90px;
+    position: relative;
+}
+
+.maker-disings-specifications__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #4C4C4C;
+    padding-bottom: 40px;
+}
+
+.maker-disings-specifications__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 47px;
+    color: #4C4C4C;
+    margin: 0;
+    margin-bottom: 60px;
+    margin-top: 70px;
+}
+
+.maker-disings-specifications-wrapper::after {
+    display: block;
+    width: 100%;
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: #C4C4C4;
+    top: -19px;
+    left: 0;
+}
+
+div.maker-disings-specifications-container:nth-child(9) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2.maker-disings-block__title:nth-child(7) {
+    margin-bottom: 0;
+}
+
+.maker-disings-footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #585858;
+    margin-top: 134px;
+    position: relative;
+    margin-bottom: 137px;
+}
+
+.maker-disings-footer__btn {
+    width: 317px;
+    height: 48px;
+    background: rgb(122, 193, 244) none repeat scroll 0% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.maker-disings-footer__span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #585858;
+}
+
+
+div.maker-disings-specifications-container:nth-child(11)>div:nth-child(1)::after {
+    display: none;
+}
+
+div.maker-disings-specifications-container:nth-child(13)>div:nth-child(1)::after {
+    display: none;
+}
+
+div.maker-disings-specifications-container:nth-child(9)>div:nth-child(1)::after {
+    display: none;
+}
+
+.maker-disings-footer-wrapper::after {
+    display: block;
+    width: 100%;
+    content: "";
+    position: absolute;
+    height: 1px;
+    left: 0;
+    background: #7AC1F4;
+    top: -48px;
+}

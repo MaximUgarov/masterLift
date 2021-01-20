@@ -1,0 +1,59 @@
+footer {
+    background: #4D4D4D;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    align-items: flex-end;
+}
+
+.footer-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.footer-link>div:nth-child(1)>a:nth-child(1) {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.footer-link>div:nth-child(1)>a:nth-child(2) {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-left: 32px;
+}
+
+.footer-text-adress {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.codovstvo-logo {
+    padding-bottom: 32px;
+}
+
+.footer-text-adress {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
